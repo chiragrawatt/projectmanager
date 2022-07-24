@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/blue_gradient.xml" value="0.1695" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/button_rounded_corners.xml" value="0.1695" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/gradient_rounded_background.xml" value="0.1695" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/rounded_corner_background.xml" value="0.1695" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/splash_screen_background.xml" value="0.209" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/fragment_authentication.xml" value="0.22826086956521738" />
       </map>
     </option>
   </component>

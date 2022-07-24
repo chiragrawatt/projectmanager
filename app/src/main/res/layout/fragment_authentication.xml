@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="24dp"
+    tools:context=".Authentication">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PROMAN"
+        android:textColor="?attr/colorPrimary"
+        android:textSize="48sp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:src="@drawable/authenticate"/>
+
+    <Button
+        android:id="@+id/log_in_btn"
+        style="@style/action_button"
+        android:background="@drawable/rounded_corner_background"
+        android:text="@string/log_in"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/sign_up_btn"
+        style="@style/action_button"
+        android:textColor="?attr/colorPrimary"
+        android:background="@drawable/rounded_corner_background"
+        android:text="@string/sign_up"/>
+
+</LinearLayout>
