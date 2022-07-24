@@ -7,9 +7,11 @@
     tools:context=".MainActivity">
 
     <fragment
-        android:id="@+id/title_fragment"
+        android:id="@+id/myNavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.projectmanager.Authentication"/>
+        android:name="com.example.projectmanager.Authentication"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/navigation"/>
 
 </LinearLayout>
