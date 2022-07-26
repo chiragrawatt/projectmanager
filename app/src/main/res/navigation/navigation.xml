@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/authentication"
-        android:name="com.example.projectmanager.Authentication"
+        android:name="com.example.projectmanager.Fragments.Authentication"
         android:label="fragment_authentication"
         tools:layout="@layout/fragment_authentication" />
 </navigation>

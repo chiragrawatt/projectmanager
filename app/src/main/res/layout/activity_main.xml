@@ -10,7 +10,7 @@
         android:id="@+id/myNavHostFragment"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.example.projectmanager.Authentication"
+        android:name="com.example.projectmanager.Fragments.Authentication"
         app:defaultNavHost="true"
         app:navGraph="@navigation/navigation"/>
 
