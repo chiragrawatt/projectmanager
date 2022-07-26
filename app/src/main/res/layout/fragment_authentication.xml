@@ -32,7 +32,7 @@
         android:text="@string/log_in"/>
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/sign_up_btn"
+        android:id="@+id/signUpBtn"
         style="@style/action_button"
         android:textColor="@color/blue_grad"
         android:background="@drawable/rounded_corner_background"

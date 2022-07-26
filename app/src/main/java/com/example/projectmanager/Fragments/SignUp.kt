@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
 import com.example.projectmanager.R
 import com.example.projectmanager.databinding.FragmentSignUpBinding
 
@@ -17,7 +18,10 @@ class SignUp : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        binding = FragmentSignUpBinding.inflate(inflater, container, false)
+        binding = FragmentSignUpBinding.inflate(layoutInflater)
+
+
+
         return binding.root
     }
 }

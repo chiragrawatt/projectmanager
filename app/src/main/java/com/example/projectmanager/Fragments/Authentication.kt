@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
+import androidx.navigation.findNavController
+import com.example.projectmanager.R
 import com.example.projectmanager.databinding.FragmentAuthenticationBinding
 
 class Authentication : Fragment() {
@@ -15,7 +18,12 @@ class Authentication : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        binding = FragmentAuthenticationBinding.inflate(inflater, container, false)
+        binding = FragmentAuthenticationBinding.inflate(layoutInflater)
+
+        binding.signUpBtn.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_authentication_to_signUp)
+        }
+
         return binding.root
     }
 }
