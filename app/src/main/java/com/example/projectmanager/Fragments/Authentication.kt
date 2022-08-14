@@ -24,6 +24,10 @@ class Authentication : Fragment() {
             Navigation.findNavController(it).navigate(R.id.action_authentication_to_signUp)
         }
 
+        binding.logInBtn.setOnClickListener {
+            Navigation.findNavController(it).navigate(R.id.action_authentication_to_signIn)
+        }
+
         return binding.root
     }
 }

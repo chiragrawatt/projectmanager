@@ -13,10 +13,18 @@
         <action
             android:id="@+id/action_authentication_to_signUp"
             app:destination="@id/signUp" />
+        <action
+            android:id="@+id/action_authentication_to_signIn"
+            app:destination="@id/signIn" />
     </fragment>
     <fragment
         android:id="@+id/signUp"
         android:name="com.example.projectmanager.Fragments.SignUp"
         android:label="fragment_sign_up"
         tools:layout="@layout/fragment_sign_up" />
+    <fragment
+        android:id="@+id/signIn"
+        android:name="com.example.projectmanager.Fragments.SignIn"
+        android:label="fragment_sign_in"
+        tools:layout="@layout/fragment_sign_in" />
 </navigation>
