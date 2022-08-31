@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
         if(actionBar != null) {
             actionBar.setDisplayHomeAsUpEnabled(true)
         }
-
     }
 
     override fun onSupportNavigateUp(): Boolean {

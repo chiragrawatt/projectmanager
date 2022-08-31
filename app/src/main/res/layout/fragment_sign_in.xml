@@ -22,7 +22,7 @@
                 style="@style/info_text"
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:text="Enter your details so we can make sure it's you"
+                android:text="Welcome back, enter your details to start working!"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />

@@ -10,7 +10,9 @@
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/rounded_corner_background.xml" value="0.1695" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/drawable/splash_screen_background.xml" value="0.209" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/dialog_progress.xml" value="0.25" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/fragment_authentication.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/fragment_base.xml" value="0.25" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/fragment_sign_in.xml" value="0.25" />
         <entry key="..\:/Users/chira/AndroidStudioProjects/ProjectManager/app/src/main/res/layout/fragment_sign_up.xml" value="0.25" />
       </map>
