@@ -6,8 +6,11 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat
 import com.example.projectmanager.R
 import com.example.projectmanager.databinding.DialogProgressBinding
+import com.google.android.material.snackbar.Snackbar
+import com.google.firebase.auth.FirebaseAuth
 
 class BaseFragment : Fragment() {
 
@@ -33,5 +36,16 @@ class BaseFragment : Fragment() {
         mProgressDialog.show()
     }
     
-    
+    fun hideProgressDialog() {
+        mProgressDialog.dismiss()
+    }
+
+    fun getCurrentUserID(): String {
+        return FirebaseAuth.getInstance().currentUser!!.uid
+    }
+
+    fun showSnackBarError(message: String, view: View) {
+        val snackbar: Snackbar = Snackbar.make(view, message, Snackbar.LENGTH_SHORT)
+        snackbar.show()
+    }
 }
