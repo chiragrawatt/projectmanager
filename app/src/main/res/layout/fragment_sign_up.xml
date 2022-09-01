@@ -31,6 +31,7 @@
                 android:id="@+id/nameEditText"
                 style="@style/edit_text"
                 android:hint="Name"
+                android:inputType="text"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/signUpDialog" />
@@ -47,6 +48,7 @@
                 android:id="@+id/passwordEditText"
                 style="@style/edit_text"
                 android:hint="Password"
+                android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/emailEditText" />
@@ -55,6 +57,7 @@
                 android:id="@+id/confirmPasswordEditText"
                 style="@style/edit_text"
                 android:hint="Confirm Password"
+                android:inputType="textPassword"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintLeft_toRightOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/passwordEditText" />

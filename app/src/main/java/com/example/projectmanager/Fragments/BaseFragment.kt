@@ -12,7 +12,7 @@ import com.example.projectmanager.databinding.DialogProgressBinding
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
 
-class BaseFragment : Fragment() {
+open class BaseFragment : Fragment() {
 
     private lateinit var mProgressDialog: Dialog
 
@@ -44,8 +44,8 @@ class BaseFragment : Fragment() {
         return FirebaseAuth.getInstance().currentUser!!.uid
     }
 
-    fun showSnackBarError(message: String, view: View) {
-        val snackbar: Snackbar = Snackbar.make(view, message, Snackbar.LENGTH_SHORT)
+    fun showSnackBarError(message: String) {
+        val snackbar: Snackbar = Snackbar.make(view!!, message, Snackbar.LENGTH_SHORT)
         snackbar.show()
     }
 }
