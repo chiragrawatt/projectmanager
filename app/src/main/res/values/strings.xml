@@ -6,4 +6,6 @@
     <string name="sign_up">SIGN UP</string>
     <string name="sign_up_dialog">Sign up to enjoy all the amazing features!</string>
     <string name="progress_bar_please_wait">Please wait..</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 </resources>

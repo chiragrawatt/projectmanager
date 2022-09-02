@@ -63,7 +63,7 @@ class SignUp : BaseFragment() {
         }
     }
 
-    suspend fun createUser(firebaseAuth: FirebaseAuth, email: String, password: String) : AuthResult? {
+    private suspend fun createUser(firebaseAuth: FirebaseAuth, email: String, password: String) : AuthResult? {
         return try {
             val data = firebaseAuth.createUserWithEmailAndPassword(email, password).await()
             data
